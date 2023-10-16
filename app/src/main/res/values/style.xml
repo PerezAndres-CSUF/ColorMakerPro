@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="red_switch_color" parent="Widget.MaterialComponents.CompoundButton.Switch">
+        <item name="trackTint">@color/red</item>  <!-- Color of the track (background) when the switch is on -->
+    </style>
+</resources>
