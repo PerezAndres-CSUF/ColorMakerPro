@@ -1,3 +1,7 @@
+//Name: Andres Perez
+//CWID: 9472
+//Email: perez.andres@csu.fullerton.edu
+
 package edu.CpSc411a.ColorMaker
 
 import androidx.appcompat.app.AppCompatActivity
@@ -7,11 +11,8 @@ import android.text.TextWatcher
 import android.util.Log
 import android.widget.Button
 import android.widget.EditText
-import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.SeekBar
-import android.widget.Switch
-import android.widget.Toast
 import com.google.android.material.switchmaterial.SwitchMaterial
 
 const val TAG = "MainActivity"
@@ -200,7 +201,7 @@ class MainActivity : AppCompatActivity() {
         })
 
         resetButton.setOnClickListener {
-            
+
             redSeekBar.progress = 0
             redEditText.setText("0")
             greenSeekBar.progress = 0
